@@ -5,7 +5,7 @@ setInterval(()=>{
    let hourTime = date.getHours()
    let minuteTime = date.getMinutes()
    let secondTime = date.getSeconds()
-d
+
    let hourRotation = 30 * hourTime + minuteTime / 2
    let minuteRotation = 6 * minuteTime
    let secondRotation = 6 * secondTime
